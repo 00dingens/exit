@@ -18,9 +18,10 @@ Build
 Quick Start
 -----------
 
-Install and start InfluxDB on your local machine (alter priv/app.config
-accordingly) and then execute
-
+* [Install and start](https://docs.influxdata.com/influxdb/v0.9/introduction/installation/) InfluxDB on your local machine.
+* [Create](https://docs.influxdata.com/influxdb/v0.9/introduction/getting_started/) a Database
+* Alter config/exit.conf accordingly
+* Execute
     $ rel/exit/bin/exit console
 
 A metric called "my_counter" should appear in your InfluxDB database. This
