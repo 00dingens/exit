@@ -17,6 +17,7 @@ defmodule Exit.Mixfile do
 
   defp deps do
     [
+      {:exrm, "1.0.0-rc7"},
       {:conform, "~> 0.16.0"},
       {:relx, "~> 3.5.0" },
       {:meck, github: "eproxus/meck", tag: "0.8.2", override: true},
