@@ -22,7 +22,8 @@ Quick Start
 * [Create](https://docs.influxdata.com/influxdb/v0.9/introduction/getting_started/) a Database
 * Alter config/exit.conf accordingly
 * Execute
-    $ rel/exit/bin/exit console
+
+        $ rel/exit/bin/exit console
 
 A metric called "my_counter" should appear in your InfluxDB database. This
 counter in incremented every second and resetted randomly within 60 seconds. The
