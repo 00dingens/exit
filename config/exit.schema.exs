@@ -40,6 +40,6 @@
         x -> IO.puts "Bad tag:value Format: #{tags}"
           exit(1)
       end
-    end,
+    end
   ]
 ]
