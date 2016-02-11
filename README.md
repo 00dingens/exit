@@ -13,6 +13,7 @@ Requirements
 Build
 -----
 
+    $ mix deps.get
     $ mix release
 
 Quick Start
